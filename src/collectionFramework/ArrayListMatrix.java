@@ -33,7 +33,7 @@ public class ArrayListMatrix {
         a.add(a2);
         a.add(a3);
 
-        for(ArrayList obj:a){
+        for(ArrayList<Integer> obj:a){
 
             ArrayList<Integer> temp = obj;
             for(Integer job : temp){
