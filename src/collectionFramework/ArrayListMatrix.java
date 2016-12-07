@@ -34,9 +34,7 @@ public class ArrayListMatrix {
         a.add(a3);
 
         for(ArrayList<Integer> obj:a){
-
-            ArrayList<Integer> temp = obj;
-            for(Integer job : temp){
+            for(Integer job : obj){
                 System.out.print(job+" ");
             }
             System.out.println();
