@@ -14,10 +14,10 @@ public class InsertUsingPreparedStatement {
 
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/demodb","abcde","12345");
 
-            /*PreparedStatement stmnt = con.prepareStatement("select * from person");
-            ResultSet rs = stmnt.executeQuery();
-            while (rs.next()){
-                System.out.println(rs.getInt(1)+" "+rs.getString(2));
+            /*PreparedStatement stmnts = con.prepareStatement("select * from person");
+            ResultSet rs = stmnts.executeQuery();
+            while (rs1.next()){
+                System.out.println(rs1.getInt(1)+" "+rs1.getString(2));
             }
             con.close();*/
 
